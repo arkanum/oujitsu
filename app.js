@@ -74,6 +74,20 @@ var main = function() {
         nextDot.addClass('active-dot')
     });
     
+    $('.logo-icon').click(function() {
+        var currentSlide = $('.active-slide');
+        var nextSlide = $('.slide').first().next();
+        
+        var currentDot = $('.active-dot');
+        var nextDot = $('.dot').first().next();
+        
+        currentSlide.fadeOut(400).removeClass('active-slide');
+        nextSlide.fadeIn(400).addClass('active-slide');
+        
+        currentDot.removeClass('active-dot')
+        nextDot.addClass('active-dot')
+    });
+    
     $('.what').click(function() {
         var currentSlide = $('.active-slide');
         var nextSlide = $('.slide').first().next().next();
