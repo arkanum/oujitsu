@@ -97,6 +97,16 @@
   margin: 5px;
 }
 
+.slide-feature h2 {
+  color: #FFFFFF;
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin: 5px;
+}
+
 .slide-copy p {
   color: #959595;
   font-family: Georgia, "Times New Roman", serif;
