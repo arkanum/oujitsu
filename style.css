@@ -110,6 +110,13 @@
   text-align: right;
 }
 
+.img2 {
+  margin-left: 60px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 0px;
+}
+
 /* Slide feature */
 
 .slide-feature {
@@ -151,6 +158,13 @@
   display: inline-block;
   vertical-align: top;
   margin-top: 9px;
+}
+
+.arrow-next-pic {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 0px;
 }
 
 .slider-dots {
